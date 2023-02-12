@@ -1,0 +1,58 @@
+.row {
+    margin-left: 20px;
+    color: #fff;
+}
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar {
+    display: none;
+}
+.poster {
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 1.2s;
+}
+.poster:hover {
+    transform: scale(1.25);
+}
+.small-poster{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 1.2s;
+}
+.small-poster:hover {
+    transform: scale(1.2);
+}
+#youtube {
+    display: flex;
+    justify-content: center;
+}
+
+#top-btn {
+     position: fixed; 
+   left: 90%;
+   bottom: 40px;
+   height: 30px;
+   font-size: 3rem;
+   z-index: 1;
+   cursor: pointer;
+   color: rgb(183, 33, 10);
+   transition: 1s;
+
+}
+
+#top-btn:hover {
+    color:red ;
+    transform: scale(1.2);
+}
+
+
+  
